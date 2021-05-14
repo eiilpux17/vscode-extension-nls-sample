@@ -1,0 +1,34 @@
+{
+	"name": "ks-nls-sample",
+	"description": "%jsnls.sample.description%",
+	"version": "0.0.1",
+	"publisher": "vscode-samples",
+	"repository": "https://github.com/Microsoft/vscode-extension-samples/helloworld-minimal-sample",
+	"engines": {
+		"vscode": "^1.32.0"
+	},
+	"activationEvents": [
+		"onCommand:extension.helloWorld"
+	],
+	"main": "./out/extension.js",
+	"contributes": {
+		"commands": [
+			{
+				"command": "extension.helloWorld",
+				"title": "Hello World"
+			}
+		]
+	},
+	"scripts": {},
+	"devDependencies": {
+		"@types/vscode": "^1.32.0",
+		"del": "^6.0.0",
+		"gulp": "^4.0.2",
+		"gulp-rename": "^2.0.0",
+		"rename": "^1.0.4",
+		"vscode-nls-dev": "^3.3.2"
+	},
+	"dependencies": {
+		"vscode-nls": "^5.0.0"
+	}
+}
