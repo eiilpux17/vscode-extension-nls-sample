@@ -1,5 +1,5 @@
 {
-	"name": "ks-nls-sample",
+	"name": "js-nls-sample",
 	"description": "%jsnls.sample.description%",
 	"version": "0.0.1",
 	"publisher": "vscode-samples",
