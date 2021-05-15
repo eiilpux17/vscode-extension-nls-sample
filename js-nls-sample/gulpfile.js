@@ -14,6 +14,7 @@ const cleanout = function () {
 gulp.task('clean', cleanout);
 
 // 源码
+// 如果不适用单一国际化文件，删除掉nls.bundleMetaDataFiles和nls.bundleLanguageFiles即可
 const sourcesNsl = function () {
     var r = gulp.src(['./**/*.js', '!node_modules/**', '!gulpfile.js'])
         .pipe(nls.rewriteLocalizeCalls())
