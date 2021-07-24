@@ -8,3 +8,5 @@
 | js-nls-sample | 普通Javascript插件|
 | ts-nls-sample | Typescript插件|
 | webpack-nls-sample | Webpack打包插件|
+
+项目的参考说明：https://blog.csdn.net/eiilpux17/article/details/116808463
